@@ -24,3 +24,11 @@ jobs:
         npm test
       env:
         CI: true
+  - uses: actions/checkout@master
+  - uses: codecov/codecov-action@v1
+    with:
+      token: ${{ secrets.CODECOV_TOKEN }} #required
+      file: ./coverage.xml #optional
+      name: codecov-pr #optional
+      yml: ./codecov.yml #optional
+      fail_ci_if_error: true #optional (default = false)
