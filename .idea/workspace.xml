@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a2255aea-a6f7-4430-8048-5210c0cdc6d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,6 +11,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WkuywlbeZIwxGRiLdqsiOen1jv" />
@@ -71,21 +77,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579706175129</updated>
-      <workItem from="1579706176963" duration="245000" />
+      <workItem from="1579706176963" duration="1323000" />
     </task>
+    <task id="LOCAL-00001" summary="codecon test">
+      <created>1579706649613</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579706649613</updated>
+    </task>
+    <task id="LOCAL-00002" summary="codecon test">
+      <created>1579706691191</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579706691191</updated>
+    </task>
+    <task id="LOCAL-00003" summary="codecon test">
+      <created>1579706874840</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579706874840</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="codecon test" />
+    <option name="LAST_COMMIT_MESSAGE" value="codecon test" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="234" y="1" key="CommitChangelistDialog2" timestamp="1579706649253">
+    <state x="234" y="1" key="CommitChangelistDialog2" timestamp="1579706874554">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="234" y="1" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1579706649253" />
-    <state x="240" y="128" key="Vcs.Push.Dialog.v2" timestamp="1579706665113">
+    <state x="234" y="1" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1579706874554" />
+    <state x="240" y="128" key="Vcs.Push.Dialog.v2" timestamp="1579706877078">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="128" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1579706665113" />
+    <state x="240" y="128" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1579706877078" />
   </component>
 </project>
