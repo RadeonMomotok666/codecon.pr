@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2255aea-a6f7-4430-8048-5210c0cdc6d8" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/nodejs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/nodejs.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="a2255aea-a6f7-4430-8048-5210c0cdc6d8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +71,7 @@
       <updated>1579706175129</updated>
       <workItem from="1579706176963" duration="245000" />
       <workItem from="1579773801684" duration="400000" />
-      <workItem from="1579774365698" duration="677000" />
+      <workItem from="1579774365698" duration="1420000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1579715719444</created>
@@ -93,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579716381924</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test4">
+      <created>1579775600686</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579775600686</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,25 +115,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="test4" />
+    <option name="LAST_COMMIT_MESSAGE" value="test4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579773017339">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1579773017339" />
-    <state x="234" y="1" key="CommitChangelistDialog2" timestamp="1579775492849">
+    <state x="234" y="1" key="CommitChangelistDialog2" timestamp="1579775600288">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="234" y="1" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1579775492849" />
-    <state x="100" y="100" width="1080" height="600" key="DiffContextDialog" timestamp="1579716486850">
-      <screen x="0" y="22" width="1280" height="778" />
+    <state x="234" y="1" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1579775600288" />
+    <state x="100" y="100" width="1080" height="600" key="DiffContextDialog" timestamp="1579776341809">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1579716465901" />
+    <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1579776341809" />
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.22.1280.778@0.22.1280.778" timestamp="1579716486850" />
-    <state x="240" y="128" key="Vcs.Push.Dialog.v2" timestamp="1579716384600">
+    <state x="353" y="123" key="MultipleFileMergeDialog" timestamp="1579775647185">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="128" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1579716384600" />
+    <state x="353" y="123" key="MultipleFileMergeDialog/0.0.1280.800@0.0.1280.800" timestamp="1579775647185" />
+    <state x="240" y="128" key="Vcs.Push.Dialog.v2" timestamp="1579775605655">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="128" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1579775605655" />
   </component>
 </project>
