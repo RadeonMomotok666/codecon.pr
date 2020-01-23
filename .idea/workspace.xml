@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2255aea-a6f7-4430-8048-5210c0cdc6d8" name="Default Changelist" comment="test44">
+    <list default="true" id="a2255aea-a6f7-4430-8048-5210c0cdc6d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/nodejs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/nodejs.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
       <updated>1579706175129</updated>
       <workItem from="1579706176963" duration="245000" />
       <workItem from="1579773801684" duration="400000" />
-      <workItem from="1579774365698" duration="3294000" />
+      <workItem from="1579774365698" duration="5270000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1579715719444</created>
@@ -119,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579777080985</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test444">
+      <created>1579784363687</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579784363687</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,16 +152,18 @@
     <MESSAGE value="test" />
     <MESSAGE value="test4" />
     <MESSAGE value="test44" />
-    <option name="LAST_COMMIT_MESSAGE" value="test44" />
+    <MESSAGE value="test444" />
+    <option name="LAST_COMMIT_MESSAGE" value="test444" />
   </component>
   <component name="WindowStateProjectService">
     <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579773017339">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1579773017339" />
-    <state x="234" y="1" key="CommitChangelistDialog2" timestamp="1579777617713">
+    <state x="234" y="1" key="CommitChangelistDialog2" timestamp="1579784363341">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="234" y="1" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1579784363341" />
     <state x="234" y="1" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1579777617713" />
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog" timestamp="1579776341809">
       <screen x="0" y="0" width="1280" height="800" />
@@ -164,9 +174,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="353" y="123" key="MultipleFileMergeDialog/0.0.1280.800@0.0.1280.800" timestamp="1579775647185" />
-    <state x="240" y="128" key="Vcs.Push.Dialog.v2" timestamp="1579777082625">
+    <state x="240" y="128" key="Vcs.Push.Dialog.v2" timestamp="1579784365369">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="240" y="128" key="Vcs.Push.Dialog.v2/-1920.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1579784365369" />
     <state x="240" y="128" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1579777082625" />
     <state x="429" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579778007457">
       <screen x="0" y="0" width="1280" height="800" />

@@ -24,10 +24,18 @@ jobs:
           npm test
         env:
           CI: true
+
+          language:
+            node_js
+          install:
+            - npm install -g codecov
+          script:
+            - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
+            - codecov
   steps:
     - name: Upload coverage to Codecov
-    - uses: actions/checkout@master
-  - uses: codecov/codecov-action@v1
+    - uses: actions/checkout@RadeonMomotok666-pacht-1
+  - uses: codecon.pr/codecon.pr-action@v1
     with:
       token: ${{ secrets.CODECOV_TOKEN }} #required
       file: ./coverage.xml #optional
