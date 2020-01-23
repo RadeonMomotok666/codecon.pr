@@ -7,21 +7,16 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [8.x, 10.x, 12.x]
-
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-         token: ${{ secrets.CODECOV_TOKEN }}
-      file: ./coverage.xml #optional
-      name: codecov-pr #optional
-      yml: ./codecov.yml #optional
-      fail_ci_if_error: true #optional (default = false):  
+      - uses: actions/checkout@master
+      - uses: codecov/codecov-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }} #required
+          file: ./coverage.xml #optional
+          flags: unittests #optional
+          name: codecov-umbrella #optional
+          yml: ./nodejs.yml #optional
+          fail_ci_if_error: true #optional (default = false)
     - name: npm install, build, and test
       run: |
         npm ci
@@ -29,3 +24,5 @@ jobs:
         npm test
       env:
         CI: true
+
+
