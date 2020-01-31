@@ -15,6 +15,8 @@ jobs:
       - uses: actions/checkout@v1
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
+        args: codecov
+
         with:
           node-version: ${{ matrix.node-version }}
       - name: npm install, build, and test
@@ -30,16 +32,15 @@ jobs:
           install:
             - npm install -g codecov
           script:
-            - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
-            - codecov
+            - jest && codecov
   steps:
     - name: Upload coverage to Codecov
-    - uses: actions/checkout@RadeonMomotok666-pacht-1
-  - uses: codecon.pr/codecon.pr-action@v1
+    - uses: codecon.pr/checkout@RadeonMomotok666-pacht-1-action@v1
     with:
-      token: ${{ secrets.CODECOV_TOKEN }} #required
-      file: ./coverage.xml #optional
-      flags: unittests #optional
-      name: codecov-umbrella #optional
-      yml: ./codecov.yml #optional
-      fail_ci_if_error: true #optional (default = false)
+      token: ${{ secrets.CODECOV_TOKEN }}
+      file: ./coverage.xml
+      flags: unittests
+      name: codecon.pr
+      yml: ./codecov.yml
+      fail_ci_if_error: true
+
