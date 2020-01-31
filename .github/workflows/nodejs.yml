@@ -34,7 +34,6 @@ jobs:
             - jest && codecov
   steps:
     - name: Upload coverage to Codecov
-    - uses: actions/checkout@v1
     with:
       token: ${{ secrets.CODECOV_TOKEN }}
       file: ./coverage.xml
