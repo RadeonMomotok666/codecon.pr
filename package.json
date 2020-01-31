@@ -16,7 +16,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "CI=true react-scripts test --env=jsdom --coverage --watch=false",
+    "codecov": "bash <(curl -s https://codecov.io/bash) -t ${{ secrets.CODECOV_TOKEN }}",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -36,9 +37,5 @@
   },
   "devDependencies": {
     "codecov": "^3.6.2"
-  },
-  "jest": {
-    "coverageDirectory": "./coverage/",
-    "collectCoverage": true
   }
 }
