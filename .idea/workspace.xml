@@ -4,9 +4,6 @@
     <list default="true" id="a2255aea-a6f7-4430-8048-5210c0cdc6d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/nodejs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/nodejs.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +76,7 @@
       <workItem from="1579706176963" duration="245000" />
       <workItem from="1579773801684" duration="400000" />
       <workItem from="1579774365698" duration="6433000" />
-      <workItem from="1580467573636" duration="2310000" />
+      <workItem from="1580467573636" duration="2780000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1579715719444</created>
@@ -137,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579787054743</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="test7">
+      <created>1580472574751</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1580472574751</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,18 +167,19 @@
     <MESSAGE value="test4" />
     <MESSAGE value="test44" />
     <MESSAGE value="test444" />
-    <option name="LAST_COMMIT_MESSAGE" value="test444" />
+    <MESSAGE value="test7" />
+    <option name="LAST_COMMIT_MESSAGE" value="test7" />
   </component>
   <component name="WindowStateProjectService">
     <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579773017339">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1579773017339" />
-    <state x="234" y="1" key="CommitChangelistDialog2" timestamp="1579787053505">
+    <state x="234" y="1" key="CommitChangelistDialog2" timestamp="1580472574447">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="234" y="1" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1579787053505" />
-    <state x="234" y="1" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1579777617713" />
+    <state x="234" y="1" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1580472574447" />
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog" timestamp="1579776341809">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -184,11 +189,11 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="353" y="123" key="MultipleFileMergeDialog/0.0.1280.800@0.0.1280.800" timestamp="1579775647185" />
-    <state x="240" y="128" key="Vcs.Push.Dialog.v2" timestamp="1579787056668">
+    <state x="240" y="128" key="Vcs.Push.Dialog.v2" timestamp="1580472577209">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="240" y="128" key="Vcs.Push.Dialog.v2/-1920.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1579787056668" />
-    <state x="240" y="128" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1579777082625" />
+    <state x="240" y="128" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1580472577209" />
     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580471697123">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
