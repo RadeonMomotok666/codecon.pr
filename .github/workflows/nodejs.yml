@@ -39,8 +39,8 @@ jobs:
         install:
            - npm install -g codecov
         script:
-           - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
            - jest && codecov
-        run: bash <(curl -s https://codecov.io/bash) -t ${{ secrets.CODECOV_TOKEN }}
+       - name: codecov push
+          run: bash <(curl -s https://codecov.io/bash) -t ${{ secrets.CODECOV_TOKEN }}
 
 
