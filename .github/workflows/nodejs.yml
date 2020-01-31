@@ -34,13 +34,13 @@ jobs:
           name: codecon.pr
           yml: ./codecov.yml
           fail_ci_if_error: true
-          language:
+        language:
             node_js
-         install:
+        install:
            - npm install -g codecov
         script:
            - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
            - jest && codecov
-           run: bash <(curl -s https://codecov.io/bash) -t ${{ secrets.CODECOV_TOKEN }}
+        run: bash <(curl -s https://codecov.io/bash) -t ${{ secrets.CODECOV_TOKEN }}
 
 
