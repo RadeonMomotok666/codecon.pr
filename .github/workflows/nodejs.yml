@@ -5,8 +5,6 @@ on: [push]
 jobs:
   build:
 
-    runs-on: ubuntu-latest
-
     steps:
        - name: Upload coverage to Codecov
        - uses: codecon.pr/RadeonMomotok666-patch-1-action@v1
