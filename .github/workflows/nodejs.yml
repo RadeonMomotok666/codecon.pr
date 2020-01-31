@@ -1,32 +1,46 @@
-name: Node CI
+name: Codecov
 
 on: [push]
 
 jobs:
-  build:
+  one:
 
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
+
+  strategy:
+    matrix:
+      node-version: [8.x, 10.x, 12.x]
 
     steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: npm install, build, and test
+        run: |
+          npm ci
+          npm run build --if-present
+          npm test
+        env:
+          CI: true
+
       - name: Upload coverage to Codecov
-      - uses: codecon.pr/RadeonMomotok666-patch-1
-      with:
+      - uses: action/@RadeonMomotok666-patch-1
+        with:
         token: ${{ secrets.CODECOV_TOKEN }}
           file: ./coverage.xml
           flags: unittests
           name: codecon.pr
           yml: ./codecov.yml
           fail_ci_if_error: true
-      - name: npm install
-        run: |
-          npm ci
-        env:
-          CI: true
           language:
             node_js
-            install:
-              - npm install -g codecov
-            script:
-              - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
-              - jest && codecov
+         install:
+           - npm install -g codecov
+        script:
+           - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
+           - jest && codecov
+           run: bash <(curl -s https://codecov.io/bash) -t ${{ secrets.CODECOV_TOKEN }}
+
 
