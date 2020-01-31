@@ -14,31 +14,23 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
-        args: codecov
-
+       - uses: actions/setup-node@v1
+       - name: Upload coverage to Codecov
+       - uses: codecon.pr/@master-action@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: npm install, build, and test
+          token: ${{ secrets.CODECOV_TOKEN }}
+            file: ./coverage.xml
+            flags: unittests
+            name: codecon.pr
+            yml: ./codecov.yml
+            fail_ci_if_error: true
+      - name: npm install, test
         run: |
           npm ci
-          npm test
+          npm install -g codecov
         env:
           CI: true
-
-          language:
-            node_js
-          install:
-            - npm install -g codecov
           script:
             - jest && codecov
-  steps:
-    - name: Upload coverage to Codecov
-    with:
-      token: ${{ secrets.CODECOV_TOKEN }}
-      file: ./coverage.xml
-      flags: unittests
-      name: codecon.pr
-      yml: ./codecov.yml
-      fail_ci_if_error: true
 
