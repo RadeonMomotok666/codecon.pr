@@ -5,6 +5,8 @@ on: [push]
 jobs:
   build:
 
+    runs-on: ubuntu-latest
+
     steps:
       - name: Upload coverage to Codecov
       - uses: codecon.pr/RadeonMomotok666-patch-1
@@ -15,12 +17,16 @@ jobs:
           name: codecon.pr
           yml: ./codecov.yml
           fail_ci_if_error: true
-      - name: npm install, test
+      - name: npm install
         run: |
           npm ci
-          npm install -g codecov
         env:
           CI: true
-          script:
-            - jest && codecov
+          language:
+            node_js
+            install:
+              - npm install -g codecov
+            script:
+              - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
+              - jest && codecov
 
