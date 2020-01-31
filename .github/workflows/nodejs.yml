@@ -9,9 +9,8 @@ jobs:
 
     steps:
        - name: Upload coverage to Codecov
-       - uses: codecon.pr/@master-action@v1
+       - uses: codecon.pr/RadeonMomotok666-patch-1-action@v1
         with:
-          node-version: ${{ matrix.node-version }}
           token: ${{ secrets.CODECOV_TOKEN }}
             file: ./coverage.xml
             flags: unittests
